@@ -156,7 +156,7 @@ if __name__ == "__main__":
     )
     cmd_parser.add_argument('--auth-token', '-T', dest='token',
 	metavar='TOKEN', type=str,
-	action='store', default="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyOTMxMiwiZXhwIjoxNDg4NDIzNjQ0LCJ0b2tlbl90eXBlIjoiYXBpIn0.WDt7mh6Vr5bPjS23AWpmSG3uQg23KktYyp-e_qNqBSA",
+	action='store', default="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyOTMxMiwiZXhwIjoxNDg4NTEyMjQwLCJ0b2tlbl90eXBlIjoiYXBpIn0.ug8ad6CRxudlrs2YZbj-w_-7-qxo3mtHnkU2QEM6CtU",
 	help="""
 	    Your Udacity auth token. To obtain, login to review.udacity.com, open the Javascript console, and copy the output of `JSON.parse(localStorage.currentUser).token`.  This can also be stored in the environment variable UDACITY_AUTH_TOKEN.
 	"""
